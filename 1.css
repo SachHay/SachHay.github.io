@@ -1,0 +1,1094 @@
+@font-face{
+	src:url(fonts/RobotoSlab-Bold.ttf);
+	font-family: RSBold;
+}
+
+@font-face{
+	src:url(fonts/RobotoSlab-Light.ttf);
+	font-family: RSLight;
+}
+
+@font-face{
+	src:url(fonts/RobotoSlab-Regular.ttf);
+	font-family: RSRegular;
+}
+
+@font-face{
+	src:url(fonts/RobotoSlab-Thin.ttf);
+	font-family: RSThin;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: RSRegular;
+	/*	background-image: url(images/over.png);*/
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.over{
+	overflow: hidden;
+}
+
+/*CSS cho trang chu*/
+
+nav.navbar.navbar-default {
+	padding: 7px 0px;
+	background: #00000069;
+	border: none;	
+	transition: 0.4s;
+}
+
+nav.navbar.navbar-default.bg_black{
+	background: #2c3e50;
+	padding: 10px 0px;
+	border: none;
+	transition: 0.4s;
+}
+
+.navbar-default .navbar-brand {
+	color: yellow;
+	transition: 0.4s;
+	background: #1abc9c;
+	border-radius: 50px;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+
+.navbar-default .navbar-brand:hover {
+	background: #16a085;
+	color: #fff200;
+}
+
+.navbar-default .navbar-nav>li{
+	position: relative;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 13px;
+	transition: 0.4s;
+	text-transform: uppercase;
+	padding: 15px 13px;
+	position: relative;
+}
+
+.navbar-default .navbar-nav>li:last-child:after{
+	width: 0px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #f1c40f;
+}
+
+.header {
+	width: 100%;
+	height: 670px;
+	background-image: url(images/header-1.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.header:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #00000042;
+}
+
+.content_one h1.title {
+	margin-top: 40px;
+	margin-bottom: 44px;
+	font-weight: 600;
+	color: #27ae60;
+	font-family: RSLight;
+}
+
+.content_one .category_five {
+	position: relative;
+	height: 110px;
+}
+
+.content_one .category_five img{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.content_one .category_five.one::after {
+	content: "TL.Lập Trình";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_one .category_five.two::after {
+	content: "TL.Ngoại Ngữ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_one .category_five.three::after {
+	content: "TL.Khác";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_one .category_five.four::after {
+	content: "Comming Soon";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_one .category_five.five::after {
+	content: "Comming Soon";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_one .category_five.six::after {
+	content: "Comming Soon";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #f9f5f5;
+	background: #0000004f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.content_five {
+	background-color: #ecf0f1;
+	padding-bottom: 30px;
+}
+
+.content_five h1 {
+	background-color: #27ae60;
+	padding: 94px 0px 60px 0px;
+	margin: 70px 0px 30px 0px;
+	color: white;
+}
+
+.content_five h1 p {
+	margin-top: 18px;
+	color: #c0392b;
+	font-family: segoe ui;
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.content_five .loai-anh {
+	background-color: white;
+	padding-bottom: 5px;
+	margin: 15px 0px;
+}
+
+.content_five .loai-anh img {
+	height: 174px;
+	width: 100%;
+}
+
+.content_five .loai-anh h4 {
+	font-size: 13px;
+}
+
+.content_five .loai-anh h5 {
+	color: #2980b9;
+}
+
+.content_six {
+	height: 400px;
+	background-image: url(images/icon-4.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.content_six .mot-khoi-icon{	
+	width: 100%;	
+	height: 400px;	
+	display: flex;	
+	justify-content: center;	
+	align-items: center;	
+	text-align: center;
+}
+
+.content_six .mot-khoi-icon a{
+	text-decoration: none;
+}
+
+.content_six .mot-khoi-icon .icon-4 {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: 3px solid orange;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.content_six .mot-khoi-icon .icon-4:hover{
+	background-color: transparent;
+	border: 1px solid #27ae60;
+}
+
+.content_six .mot-khoi-icon .icon-4:hover i{
+	color: #e67e22;
+}
+
+.content_six .mot-khoi-icon i {
+	font-size: 48px;
+	color: #f39c12;
+}
+
+.content_seven{
+	background-color: #ecf0f1;
+	padding-bottom: 30px;
+}
+
+.content_seven h1 {
+	background-color: #8e44ad;
+	padding: 94px 0px 60px 0px;
+	margin: 0px 0px 26px 0px;
+	color: white;
+}
+
+.content_seven h1 p {
+	margin-top: 18px;
+	color: #f1c40f;
+	font-family: segoe ui;
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.content_seven .loai-sach {
+	background-color: white;
+	padding-bottom: 5px;
+	margin: 15px 0px;
+}
+
+.content_seven .loai-sach img {
+	height: 296px;
+	width: 100%;
+}
+
+.content_seven .loai-sach h4 {
+	font-size: 13px;
+	height: 40px;
+	padding: 0px 5px;
+	font-family: segoe ui;
+}
+
+.content_seven .loai-sach h5 {
+	color: #2980b9;
+}
+
+/*CSS cho cac file tai lieu*/
+
+nav.navbar.navbar-default.menu_kn{
+	background: #34495e;
+}
+
+.header_kn{
+	width: 100%;
+	height: 280px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #009432;
+}
+
+.header_kn h1{
+	color: #e6ff00;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	font-family: segoe ui;
+	font-size: 60px;
+}
+
+.header_kn small{
+	color: #ffce13;
+	font-style: italic;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.header_kn h1:after{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 400px;
+	border: 0.5px dashed yellow;
+	margin-left: -200px;
+}
+
+.content_one_kn{
+	width: 100%;
+	height: auto;
+	padding: 30px 0px;
+
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.content_one_kn .document .top .status{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 36px;
+	height: 36px;
+}
+
+.content_one_kn .document .top .status img{
+	width: 100%;
+	height: 100%;
+}
+
+.document {
+	width: 100%;
+	height: 386px;
+	background: #1a5982;
+	margin-top:  30px;
+	padding: 0px;
+	position: relative;
+}
+
+.document .top{
+	width: 100%;
+	height: 314px;
+	padding: 0px;
+	border: 0px solid #ff4c0000;
+}
+
+.document .top img{
+	width: 100%;
+	height: 100%;
+}
+
+.document .top h5 {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 17px;
+}
+
+.document .bottom{	
+	position: absolute;	
+	bottom: 0px;	
+	left: 0px;	
+	color: white;	
+	width: 100%;
+	text-align: center;
+}
+
+.document .bottom a{
+	color: #f1e10f;
+	text-decoration: none;
+}
+
+.document .bottom a:hover{
+	color: #f1e10f;
+}
+
+.document .bottom i {
+	width: 100%;
+	color: #f1e10f;
+	display: inline;
+	margin-right: 6px;
+}
+
+/*CSS cho file kien thuc tin hoc*/
+
+.over.menu-ktth {
+	background-color: #6D214F;
+}
+
+.title-tinhoc {
+	margin: 128px 0px 28px 0px;
+	padding: 10px 0px;
+	text-align: center;
+	color: white;
+	font-family: segoe ui;
+	position: relative;
+}
+
+.title-tinhoc:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 300px;
+	margin-left: -300px;
+	height: 1px;
+	background-color: white;
+}
+
+.title-tinhoc:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	right: 50%;
+	width: 300px;
+	margin-right: -300px;
+	height: 1px;
+	background-color: white;
+}
+
+.kt-tin-hoc {
+	margin: 15px 0px 50px 0px;
+}
+
+table thead {
+    background: #34495e;
+}
+
+table thead th {
+    color: white;
+    font-family: segoe ui;
+}
+
+table tbody{
+	background: white;
+}
+
+table tbody td:first-child{
+	text-align: center;
+}
+
+table tbody td {
+    color: #34495e;
+    font-family: segoe ui;
+}
+
+table tbody td a {
+    color: #2c3e50;
+}
+
+/*CSS cho file kien thuc lap trinh*/
+
+.over.menu-ktlt{
+	background-color: #192a56;
+}
+
+ul.nav-tabs li a {
+    color: #f1c40f;
+    font-family: segoe ui;
+    font-size: 16px;
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+/*CSS cho khoi Fb comment*/
+
+.fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in{
+	position: fixed;
+	bottom: 5px!important;
+	right: 5px!important;
+}
+
+.fb_comment {
+	padding: 50px 0px;
+	background: #ffffff73;
+}
+
+.fb_comment h2 {
+	
+}
+
+.fb_comment h5{
+	color: gray;
+	margin-bottom:  15px;
+	font-family: RSLight;
+}
+
+.fb_comment i {
+	font-size: 25px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.fb_comment i:hover {color: green;}
+
+/*CSS cho khối Footer*/
+
+footer {
+	width: 100%;
+	/* height: 50px; */
+	padding: 30px 0px 15px 0px;
+	color: white;
+	font-family: segoe ui;
+	background: #34495e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ft-top h3 {
+	font-size: 21px;
+	position: relative;
+	padding-bottom: 14px;
+	margin-bottom: 21px;
+}
+
+.ft-top h3:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	background-color: #2ecc71;
+}
+
+.ft-top ul{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.ft-top ul li{
+	padding: 3px 0px;
+	color: #bdc3c7;
+}
+
+.ft-top ul a{
+	color: #bdc3c7;
+	text-decoration: none;
+}
+
+.ft-bottom {
+	background-color: #2c3e50;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: segoe ui light;
+}
+
+.ft-bottom h4 {
+	margin: 0px;
+	font-size: 14px;
+	color: #95a5a6;
+}
+
+footer h4 {
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: RSLight;
+	color: #f1c40f;
+}
+
+/*CSS cho man hinh di dong*/
+
+@media (max-width: 576px) {
+
+	nav.navbar.navbar-default{
+		border: none;
+		background: #00000040;
+	}
+
+	.navbar-default .navbar-brand{
+		background: none;
+	}
+
+	.navbar-default .navbar-brand:hover{
+		background: none;
+	}
+
+	.navbar-default .navbar-collapse {
+		background: #34495e;
+	}
+
+	.navbar-default .navbar-collapse ul.navbar-nav {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-collapse ul.navbar-nav li {
+		border-bottom: 1px dotted gray;
+	}
+
+	.navbar-default .navbar-nav>li:after{
+		width: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	/*CSS khoi trang chu*/
+	.header{
+		display: none;
+	}
+
+	.content_one{
+		padding-top: 100px;
+	}
+
+	.content_one h1.title{
+		font-size: 30px;
+	}
+
+	.content_one .category_five {
+		margin-bottom: 15px;
+	}
+
+	.content_one .category_five img{
+		display: none;
+	}
+
+	.content_two .slide .right,
+	.content_three .slide .right,
+	.content_four .slide .right{
+		border-top: 1px solid gray;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+
+	.content_five .loai-anh {
+		height: 230px;
+		position: relative;
+	}
+
+	.content_five .loai-anh img {
+		height: 154px;
+	}
+
+	.content_five .loai-anh h4 {
+		padding: 0px 5px;
+	}
+
+	.content_five .loai-anh h5 {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.content_six {
+		height: 200px;
+	}
+
+	.content_six .mot-khoi-icon {
+		height: 200px;
+	}
+
+	.content_six .mot-khoi-icon .icon-4 {
+		width: 70px;
+		height: 70px;
+		border: 3px solid #2980b9;
+	}
+
+	.content_six .mot-khoi-icon i {
+		font-size: 36px;
+	}
+
+	/*CSS khoi menu Tai Lieu-Lap Trinh*/
+	.header_kn h1 {
+		font-size: 26px;
+	}
+
+	.content_one_kn .document .top .status {
+		width: 40px;
+		height: 40px;
+		right: -15px;
+		top: -15px;
+	}
+
+	.document {
+		height: 300px;
+	}
+
+	.document .top {
+		height: 226px;
+		padding: 0px;
+	}
+
+	.document .top h5 {
+		padding-top: 5px;
+		line-height: 15px;
+	}
+
+	/*Khối Footer*/
+	.ft-top h3{
+		text-align: center;
+	}
+
+	.ft-top ul li{
+		text-align: center;
+	}
+
+	.ft-top ul a{
+		text-align: center;
+	}
+
+	.ft-bottom h4{
+		font-size: 12px;
+	}
+
+	*{
+		margin:0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+	nav.navbar.navbar-default{
+		border: none;
+		background: #00000040;
+	}
+
+	.navbar-default .navbar-brand{
+		background: none;
+	}
+
+	.navbar-default .navbar-brand:hover{
+		background: none;
+	}
+
+	.navbar-default .navbar-collapse {
+		background: #34495e;
+	}
+
+	.navbar-default .navbar-collapse ul.navbar-nav {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-collapse ul.navbar-nav li {
+		border-bottom: 1px dotted gray;
+	}
+
+	.navbar-default .navbar-nav>li:after{
+		width: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.content_one {
+		padding-top: 82px;
+	}
+
+	.content_one h1.title {
+		font-size: 30px;
+	}
+
+	.content_one .category_five {
+		margin-bottom: 15px;
+	}
+
+	.content_one .category_five img{
+		display: none;
+	}
+
+	.content_two .slide .right,
+	.content_three .slide .right,
+	.content_four .slide .right{
+		border-top: 1px solid gray;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+
+	.content_five .loai-anh {
+		height: 260px;
+		position: relative;
+	}
+
+	.content_five .loai-anh img {
+		height: 184px;
+	}
+
+	.content_five .loai-anh h4 {
+		padding: 0px 5px;
+	}
+
+	.content_five .loai-anh h5 {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/*CSS khoi menu Tai Lieu-Lap Trinh*/
+	.header_kn h1 {
+		font-size: 26px;
+	}
+
+	.content_one_kn .document .top .status {
+		width: 40px;
+		height: 40px;
+		right: -15px;
+		top: -15px;
+	}
+
+	.document {
+		height: 360px;
+	}
+
+	.document .top {
+		height: 285px;
+		padding: 0px;
+	}
+
+	.document .top h5 {
+		padding-top: 5px;
+		line-height: 15px;
+	}
+
+	/*Khối Footer*/
+	.ft-top h3{
+		text-align: center;
+	}
+
+	.ft-top ul li{
+		text-align: center;
+	}
+
+	.ft-top ul a{
+		text-align: center;
+	}
+
+	.ft-bottom h4{
+		font-size: 12px;
+	}
+
+	*{
+		margin:0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+	.navbar-default .navbar-nav>li:after{
+		width: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.navbar-header{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.content_two .slide .right,
+	.content_three .slide .right,
+	.content_four .slide .right{
+		border-top: 1px solid #80808042;
+		padding-top: 15px;
+		margin-top: 20px;
+	}
+
+	.content_one_kn .document .top .status {
+		width: 40px;
+		height: 40px;
+		right: -15px;
+		top: -15px;
+	}
+
+	.document {
+		height: 360px;
+	}
+
+	.document .top {
+		height: 250px;
+		padding: 0px;
+	}
+
+	.document .top h5 {
+		padding-top: 0px;
+		line-height: 15px;
+	}
+
+	.document .bottom i {
+		display: none;
+	}
+
+	.content_five .loai-anh {
+		height: 270px;
+		position: relative;
+	}
+
+	.content_five .loai-anh img {
+		height: 194px;
+	}
+
+	.content_five .loai-anh h4 {
+		padding: 0px 5px;
+	}
+
+	.content_five .loai-anh h5 {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/*CSS khoi menu Tai Lieu-Lap Trinh*/
+	.header_kn h1 {
+		font-size: 26px;
+	}
+
+	.content_one_kn .document .top .status {
+		width: 40px;
+		height: 40px;
+		right: -15px;
+		top: -15px;
+	}
+
+	.document {
+		height: 350px;
+	}
+
+	.document .top {
+		height: 275px;
+		padding: 0px;
+	}
+
+	.document .top h5 {
+		padding-top: 5px;
+		line-height: 15px;
+	}
+
+	/*Khối Footer*/
+	.ft-top h3{
+		text-align: center;
+	}
+
+	.ft-top ul li{
+		text-align: center;
+	}
+
+	.ft-top ul a{
+		text-align: center;
+	}
+
+	.ft-bottom h4{
+		font-size: 12px;
+	}
+
+	*{
+		margin:0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	/*Khối menu*/
+	.collapse.navbar-collapse.navbar-ex1-collapse ul {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.navbar.navbar-default .navbar-header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.content_five .loai-anh {
+		height: 260px;
+		position: relative;
+	}
+
+	.content_five .loai-anh img {
+		height: 184px;
+	}
+
+	.content_five .loai-anh h4 {
+		padding: 0px 5px;
+	}
+
+	.content_five .loai-anh h5 {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	*{
+		margin:0;
+		padding: 0;
+	}
+}
